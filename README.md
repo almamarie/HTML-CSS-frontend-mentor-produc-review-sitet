@@ -51,8 +51,7 @@ Eventhough I took 2 hours to complete the project, the most difficult part for m
 ## Author
 
 - Website - [Louis Marie Atoluko Ayariga](www.linkedin.com/in/marieloumar)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@almamarie](https://www.frontendmentor.io/profile/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
