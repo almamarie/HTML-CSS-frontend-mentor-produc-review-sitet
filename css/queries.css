@@ -1,0 +1,61 @@
+/* rem and em do NOT depend on HTML fontsize in media queries instead, 1rem = 1em = 16px*/
+
+/* **************************************** */
+/* BELOW 700PX (SMALLER DESKTOPS) */
+/* **************************************** */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* **************************************** */
+/* BELOW 550PX (SMALLER DESKTOPS) */
+/* **************************************** */
+
+@media (max-width: 35em) {
+  html {
+    font-size: 40%;
+  }
+
+  .product {
+    height: 54rem;
+  }
+}
+
+/* **************************************** */
+/* BELOW 450PX ( M0bile) */
+/* **************************************** */
+
+@media (max-width: 28em) {
+  .product {
+    height: 65rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    height: 50rem;
+    width: 35rem;
+    overflow: hidden;
+  }
+
+  .product-image {
+    object-fit: cover;
+  }
+
+  .product-details {
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+    padding: 2rem 2rem;
+  }
+
+  .product-name,
+  .product--more-details,
+  .add-to-cart-btn {
+    margin-top: 1.5rem;
+  }
+}
