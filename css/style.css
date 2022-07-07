@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* %tage of user's browser fontsize setting */
+  font-size: 62.5%;
+}
+
+body {
+  /* Set the default settings I am used to  */
+  font-family: "Fraunces", sans-serif;
+  height: 100vh;
+  line-height: 1;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-height: 100vh;
+  max-width: 100vh;
+  margin: auto 0;
+  display: flex;
+}
+
+.product {
+  /* margin: auto 0; */
+  height: 56vh;
+  width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-image {
+  height: 100%;
+  width: 35rem;
+}
+
+.product-details {
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  padding: 4.8rem 3.2rem;
+}
+
+.product-type {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.product-name {
+  margin-top: 4.8rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: hsl(212, 21%, 14%);
+}
+.product--more-details {
+  margin-top: 4.8rem;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+.price-section {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price--current {
+  font-weight: 700;
+  font-size: 4.4rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.price--original {
+  text-decoration: line-through;
+}
+.add-to-cart-btn {
+  margin-top: 3.2rem;
+  width: 100%;
+  border: none;
+}
+
+.add-to-cart {
+  display: flex;
+  gap: 1.8rem;
+  background-color: hsl(158, 36%, 37%);
+  padding: 1.4rem;
+  justify-content: center;
+  border-radius: 10px;
+  transform: all 0.6s;
+}
+
+.add-to-cart:hover {
+  background-color: hsl(158, 36%, 32%);
+}
+
+.cart-image,
+.add-to-cart--text {
+  color: hsl(0, 0%, 100%);
+}
+
+/* font size (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
